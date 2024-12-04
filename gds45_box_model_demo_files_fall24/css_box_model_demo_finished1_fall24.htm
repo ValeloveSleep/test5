@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Styles from Learning Web Design</title>
+<style type="text/css">
+body{font-size:100%}
+
+#box_test{
+	width: 400px;
+    height:300px;/*can use pixels, percent, or other units*/
+	/*max-width: 800px;
+	min-width: 400px;*/
+	/*height:100px;
+	overflow:auto; /*can be visible, hidden, scroll, auto, or inherit*/
+	background-color: rgba(200,150,200,0.5);
+	color:rgb(150,200,200);
+	font-size:2em;
+	background-image: url(layout_grid.gif);
+    overflow:auto;
+	/*-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing:border-box;can be content-box or border-box*/
+	/*Avoid using max- and min- widths and heights with the border-box model. They are known to cause browser problems.*/
+	
+    box-sizing:border-box;
+	padding:10px;
+	/*border-width: 10px;
+	border-style: solid;
+	border-color: #f00;*/
+	/*border-bottom-style:dotted;*/ /*can be none | dotted | dashed | solid | double | groove | ridge | inset | outset | inherit*/
+	/*border-style:*/
+	/*border-left:*/
+	/*border-width:19px;*/
+	/*border-color:*/
+	border:40px dashed #f00;
+	/*border-top-left-radius:25px;*/
+	border-radius:25px;
+    border-image: url("picture_frame_border.png") 49 61 49 62 repeat;
+	/*-moz-border-image: url(picture_frame_border.png) 49 61 49 62 repeat; 
+	-webkit-border-image: url(picture_frame_border.png) 49 61 49 62 repeat; 
+	-o-border-image: url(picture_frame_border.png) 49 61 49 62 repeat; 
+	border-image: url("picture_frame_border.png") 49 61 49 62 repeat;
+	*/
+	/*margin:30px;*/
+	box-shadow: 5px 5px 15px 10px #f00;
+	/*display: block;  could be inline, inline-block, none, table, etc.*/
+}
+
+</style>
+</head>
+<body>
+<img src="boxdim.png" alt="Box Model">
+<p>This sentence is before the box example.</p>
+<div id="box_test">This is the CSS box model example. This is the CSS box model example. This is the CSS box model example.</div>
+<p>This sentence is after the box example.</p>
+</body>
+</html>
